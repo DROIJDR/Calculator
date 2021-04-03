@@ -8,7 +8,7 @@
 using namespace std;
 
 double Numero(){
-    
+
 	double n1;
 	cout << "Pon un numero: " << endl;
 	
@@ -143,7 +143,9 @@ int main()					//Main
 					cin.get();
 					cin.get();
 				}
-			}while( A < 0);
+
+			}
+            while( A < 0);
 			
 			break;
 		}
